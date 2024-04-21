@@ -20,11 +20,11 @@ pipeline {
             }
         }
 
-        stage('Deploy') {
-            steps {
-                // Add deployment steps if applicable
-            }
-        }
+//         stage('Deploy') {
+//             steps {
+//                 // Add deployment steps if applicable
+//             }
+//         }
     }
 
     post {
