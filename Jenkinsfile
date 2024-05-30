@@ -5,6 +5,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git credentialsId: 'd327a225-bbb2-4a5c-997c-fa0abeb9111e', url: 'https://github.com/gadinehabpagaya/gadi-test.git'
+                checkout scm
             }
         }
 
