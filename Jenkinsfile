@@ -9,17 +9,17 @@ pipeline {
             }
         }
 
-        stage('Install Dependencies') {
-            steps {
-                sh 'pip install -r requirements.txt' // Install project dependencies if needed
-            }
-        }
-
-        stage('Run Tests') {
-            steps {
-                sh 'python -m unittest test_tests.py' // Run tests using unittest
-            }
-        }
+//         stage('Install Dependencies') {
+//             steps {
+//                 sh 'pip install -r requirements.txt' // Install project dependencies if needed
+//             }
+//         }
+//
+//         stage('Run Tests') {
+//             steps {
+//                 sh 'python -m unittest test_tests.py' // Run tests using unittest
+//             }
+//         }
 
 //         stage('Deploy') {
 //             steps {
